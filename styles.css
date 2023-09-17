@@ -1,0 +1,74 @@
+.main{
+	min-width: 500px;
+	width: 700px;
+	margin-left:  auto;
+	margin-right:  auto;
+	margin-top:  50px;
+}
+body{
+	margin: 0;
+	background-color: #E1FFEE;
+}
+
+#survey-form{
+	background-color: #7FBCD2;
+	color:  #001253;
+	padding: 40px;
+	border-radius: 5px;
+	font-weight: bold;
+	font-size: 1.2rem;
+}
+.checkbox, .radio{
+	height:  1.2rem;
+	width:  1.2rem;
+}
+
+p{
+	margin-bottom: 0;
+}
+
+.form-group{
+	margin-bottom: 20px;
+}
+
+#title{
+	font-family:  monospace;
+}
+
+*{
+	font-family: sans-serif;
+}
+
+input{
+	color:  #497174;
+	margin-top: 10px;
+	font-size:  large;
+}
+#description{
+	font-style: italic;
+	font-size:  smaller;
+}
+
+header{
+	margin-bottom: 20px;
+	text-align: center;
+	font-size: x-large;
+}
+textarea, #email, #name, #number, select{
+	width:  80%;
+}
+#email, #name, #number, select{
+	height: 25px;
+	border-radius: 5px;
+	padding: 2.5px;
+}
+
+#submit{
+	
+	width:  80%;
+	margin:  10px auto 0 auto;
+	background-color:  #355764;
+	color:  white;
+	height: 30px;
+	border-radius: 10px;
+}

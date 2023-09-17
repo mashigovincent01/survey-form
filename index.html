@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<title>Survey Form</title>
+</head>
+<body>
+	<div class="main">
+		<header>
+			<h1 id="title">weThinkAndWork Survey Form</h1>
+		<p id="description">Thank you for taking the time to help us improve the platform</p>
+		</header>
+
+		<form id="survey-form">
+			
+				<div class="form-group">
+					<label for="name" id="name-label">Name</label><br>
+					<input type="text" id="name" required placeholder="Enter your name.">
+				</div>
+
+				<div class="form-group">
+					<label for="email" id="email-label">Email</label><br>
+					<input type="email" id="email" required placeholder="Enter your email">
+				</div>
+
+				<div class="form-group">
+					<label for="number" id="number-label">Age</label><br>
+					<input type="number" min="18" max="100" id="number" placeholder="Enter your age">
+				</div>
+				
+				<div class="form-group">
+					<label for="dropdown">What are you currently doing?</label><br>
+					<select id="dropdown" >
+						<option disabled selected>Select Option</option>
+						<option value="college">College</option>
+						<option value="university">University</option>
+						<option value="working">Working</option>
+						<option value="unemployed">Unemployed</option>
+					</select>
+				</div>
+
+				<div class="form-group">
+					<p>Would you recommend weThinkAndWork to a friend?</p><br>
+					<input type="radio" name="recommend" value="Definitely" class="radio">
+					<label>Definitely</label><br>
+					<input type="radio" name="recommend" value="Maybe" class="radio">
+					<label>Maybe</label><br>
+					<input type="radio" name="recommend" value="Not sure" class="radio">
+					<label>Not sure</label>
+				</div>
+
+				<div class="form-group">
+					<p>Where did you hear about us?</p><br>
+					<input type="checkbox" value="friend" class="checkbox	">
+					<label>From a friend</label><br>
+					<input type="checkbox" value="facebook" class="checkbox">
+					<label>From facebook</label><br>
+					<input type="checkbox" value="website" class="checkbox">
+					<label>From a website</label><br>
+					<input type="checkbox" value="youtube" class="checkbox">
+					<label>From youTube</label>
+				</div>
+
+				<div class="form-group">
+					<p>What other features do you want us to add</p>
+					<textarea rows="5" cols="30"></textarea><br>
+					<input type="submit" id="submit">
+				</div>
+
+		</form>
+	</div>
+</body>
+</html>
